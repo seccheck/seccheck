@@ -1,14 +1,48 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="sec_check.js"></script>
-</head>
-
-<body>
-    <textarea id="userInput"></textarea>
-    <button id="submit">Send</button>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <script src="https://use.typekit.net/tjr7jrf.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <title>SecCheck: Your online security checkup</title>
+        <link rel="stylesheet" href="style.css" media="screen" title="no title">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="logo">
+            <img src="safe.png"/>
+            <span class="logotext">SecCheck</span><span class="logosub">by Veribox</span>
+        </div>
+        <div class="main">
+            <h1>Welcome.</h1>
+            <p>
+                This questionnaire will help you evaluate your online security habits. The goal is to make you aware of the ways you can improve safety on your existing accounts, and ensure it on future ones you create.
+            </p>
+            <p class="lastparagraph">
+                To begin, enter your email address. We’ll send you a complete, formatted report at the end.
+            </p>
+            <div class="emailentry">
+                <form class="emailform" action="index.html" method="post">
+                    <input class="textinput" type="text" name="email" placeholder="example@example.com">
+                    <input class="continuebutton" type="button" name="continue" value="Continue">
+                </form>
+            </div>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,95 @@
+body {
+    background-color: #dbdbdb;
+    font-family: "proxima-nova", sans-serif;
+    margin-top: 10vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logo {
+    font-family: "mrs-eaves", serif;
+    margin-bottom: 5vh;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.logosub {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.logotext {
+    font-size: 3em;
+}
+
+.logo > img {
+    height: 35px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.main > h1 > img {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+}
+
+.lastparagraph {
+    margin-bottom: 5vh;
+}
+
+.main {
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+
+.textinput {
+    background-color: #e6e6e6;
+    border: 0px solid;
+    font-size: 1.25em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2vw;
+    width: 23vw;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.continuebutton {
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    border: 0px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 9vw;
+    cursor: pointer;
+}
+
+.emailentry {
+    margin-bottom: 4vh;
+}
